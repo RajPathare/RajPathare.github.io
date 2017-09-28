@@ -127,6 +127,8 @@ padding:20px;
 	ul{
 	width:100%;
 	}
+	li{width:100%;}
+	div.header{width:100%;}
 	
 }
 
