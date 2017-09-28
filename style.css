@@ -1,0 +1,124 @@
+<style>
+h1{color:white;}
+div.header{
+border-radius: 25px;
+    background: #000000;
+    padding: 10px; 
+    width: 190px;
+    height: 75px;
+    color: white;
+   text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;    
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(0,0,0,0.5);
+}
+
+li { 
+    float: left;
+	
+}
+
+ a{
+ text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue; 
+    display: block;
+    color: white;
+    text-align:center;
+    padding: 15px 20px;
+    text-decoration: none;
+}
+
+ a:hover {
+    background-color: #1B1818;
+	
+}
+div.search{position:absolute;
+right:300px;
+top:115px;
+}
+.butn {
+ position:relative;
+ padding:6px 30px;
+ right:-200px;
+ border:2px solid white;
+ background-color:#111;
+ color:white;
+}
+.sear { position:relative;
+
+  right:-210px;
+  padding:8px 50px;
+  background: white;
+  border:0px;}
+.butn:hover  {
+  background-color:#1B1818;  
+}
+div.ad{position:relative;
+background-color: rgba(0,0,0,0.5);
+top:400px;
+height:100%;
+width:1000px;
+left:160px;
+}
+h3{color:white ;
+letter-spacing:2px;
+background-color:#1B1818;
+padding:10px;
+
+}
+body{
+background-image:url(images/neww.jpg);
+background-size:100%;
+background-repeat:no-repeat;
+background-attachment: fixed;
+}
+table{
+color:white;
+width:1000px;
+
+}
+div.sub1{
+position:absolute;
+background-color: rgba(0,0,0,0.5);
+top:280px;
+height:750px;
+width:390px;
+left:100px;
+}
+div.sub2{
+position:absolute;
+background-color: rgba(0,0,0,0.5);
+top:280px;
+height:750px;
+width:390px;
+left:500px;
+}
+div.sub3{
+position:absolute;
+background-color: rgba(0,0,0,0.5);
+top:280px;
+height:750px;
+width:390px;
+left:900px;
+}
+div.endd{
+position:absolute;
+top:1100px;
+}
+table.dex1,table.dex2,table.dex3{
+color:white;
+width:300px;
+}
+div.sl{
+position:absolute;
+left:300px;
+background-color:#1B1818;
+padding:20px;
+}
+
+
+
+</style>
