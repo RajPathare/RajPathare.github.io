@@ -149,5 +149,18 @@ padding:20px;
 
 }
 
+@media screen and (max-width:320px){
+	body{
+	width:100%;
+	}
+	ul{
+	width:100%;
+	}
+	li{width:100%;}
+	div.header{width:100%;}
+	img{
+	width:100%;}
+
+}
 
 </style>
