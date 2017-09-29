@@ -1,7 +1,20 @@
-<!-- Play.iDevGames.co.uk Responsive Embed Code for The Teachers Game -->
+<button onclick="goFullscreen('embededGame'); return false">Fullscreen</button>
+ 
+<script>
+function goFullscreen(id) {
+    var element = document.getElementById(id);
+    if (element.mozRequestFullScreen) {
+      element.mozRequestFullScreen();
+    } else if (element.webkitRequestFullScreen) {
+      element.webkitRequestFullScreen();
+    }
+}
+</script>
+
+<!-- Play.iDevGames.co.uk Responsive Embed Code for Ninja Arena Warrior -->
 <script>
 window.onload = function() {
-    var thegamelink = "https://play.idevgames.co.uk/embed/the-teachers-game";
+    var thegamelink = "https://play.idevgames.co.uk/embed/ninja-arena-warrior";
     var ref = document.referrer;
     var theurl = document.referrer;
     ref = ref.substring(ref.indexOf("://") + 3)
@@ -15,7 +28,7 @@ window.onload = function() {
 }
 </script>
 <div style="position: relative;height: 0;overflow: hidden;padding-bottom: 56.25%;">
-    <iframe id="embededGame" src="https://play.idevgames.co.uk/embed/the-teachers-game" width="840px" height="480px" 
+    <iframe id="embededGame" src="https://play.idevgames.co.uk/embed/ninja-arena-warrior" width="840px" height="480px" 
     scrolling="no" seamless="seamless" frame style="position: absolute;top:0;left: 0;width: 100%;height: 100%;">Browser not compatible.</iframe>
 </div>
 <!-- End Embed Code -->
