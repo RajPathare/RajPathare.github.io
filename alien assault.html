@@ -1,58 +1,21 @@
-<html>
-<head>
-<link rel="stylesheet" type="text/css" href="flash.css">
-</head>
-<body>
-<div class="header">
-<h1>Games Bond</h1>
+<!-- Play.iDevGames.co.uk Responsive Embed Code for Wedventure -->
+<script>
+window.onload = function() {
+    var thegamelink = "https://play.idevgames.co.uk/embed/wedventure";
+    var ref = document.referrer;
+    var theurl = document.referrer;
+    ref = ref.substring(ref.indexOf("://") + 3)
+    ref = ref.split("/")[0];
+    if(ref == "my-ga.me"){
+        theurl = "true"
+    } else {
+        theurl = "false"
+    } 
+    document.getElementById("embededGame").src = thegamelink+"/"+theurl;
+}
+</script>
+<div style="position: relative;height: 0;overflow: hidden;padding-bottom: 56.25%;">
+    <iframe id="embededGame" src="https://play.idevgames.co.uk/embed/wedventure" width="840px" height="480px" 
+    scrolling="no" seamless="seamless" frame style="position: absolute;top:0;left: 0;width: 100%;height: 100%;">Browser not compatible.</iframe>
 </div>
-<br>
-<div class="fixed">
-<ul>
-<li><a href="Home.html">Home</a></li>
-  <li><a href="Action.html">Action</a></li>
-  <li><a href="Adventure.html">Adventure</a></li>
-  <li><a href="Arcade.html">Arcade</a></li>
-  <li><a href="Shooting.html">Shooting</a></li>
-  <li><a href="Puzzle.html">Puzzle & Skill</a></li>
-  <li><a href="Sports.html">Sports</a></li>
-  <li><a href="Racing.html">Racing</a></li>
-  <li><a href="Strategy.html">Strategy</a></li>
-  </div>
-<div class="search">
-<br>
-<form>
-   <input class="sear" type="text" placeholder="Search...">
-   <input class="butn" type="submit" value="Search">
-</form>
-</ul>
-</div>
-<div class="frames">
-<script type="text/javascript" src="http://playtomax.com/static/js/embed.js" data-id="jumping_light" data-width="320" data-height="480" data-mode="normal"><!-- Jumping Light from http://playtomax.com --></script>
-</div>
-<div class="desc">
-<hr>
-<h1 style="background-color:#1B1818";>GAME INFO :</h1><hr>
-<h2>
-Description :
-<p><h3>
-Alien Assault is a Fast Paced Defense Game. Hundreds of alien creatures are trying to blow up your base. Luckily you have soldiers as well as your own weapon to help you defend the building. At the start of each wave of attacks you will be shown where the invasion is coming from, so use those few seconds to rearrange your troops and give them orders, you can do this by holding the left mouse key down over the character. Watch your ammo level, once it’s gone, you will have to look for pickups.
-
- </h3></p><br><br>
-<h2>Reviews : <br><br>
-<form action="" id="usrform">
-  Name : <input type="text" name="usrname">
-  <input type="submit" value="Submit">
-</form>
-<br>
-<textarea rows="7" cols="70" name="comment" form="usrform" placeholder="Enter text here..."></textarea>
-</h2>
-<br><br><br><hr>
-<h2>Games at Games Bond</h2>
-<hr>
-<h4><font color="white">
-Games Bond is the largest source of the best free online games including funny games, flash games, arcade games, dress-up games, internet games, shooting games, word games, RPG games, racing games, and much more. Play Games on the One-and-Only Addicting Games! Whatever game you feel like turning on, we've got it here. Including free online games! With tons of reviews & ratings, gamers of all skill levels are sure to find hot new games every day. This is the best place on the web to play games for free! Thousands of choices from some of the best developers around, like Armor Games, Games2Win, and even yours truly, Addicting Games! If you're ready to start playing right now, simply choose from the following categories: Action, Sports, Puzzle & Board, Shooting, Arcade & Classic, Strategy, Adventure, Life & Style, & NewsGames.
-</font></h4>
-</div>
-</body>
-</html>
+<!-- End Embed Code -->
