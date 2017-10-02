@@ -1,121 +1,402 @@
-<!doctype HTML>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
 <title>Games Bond</title>
-<link rel="stylesheet" type="text/css" href="style.css">
-<link rel="stylesheet" href="animate.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="utf-8">
+<meta name="keywords" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+<link href="css/font-awesome.css" rel="stylesheet"> 
+<link rel="stylesheet" href="css/chocolat.css" type="text/css" media="all">
+<link href="//fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
+<link href='//fonts.googleapis.com/css?family=Roboto+Condensed:400,700italic,700,400italic,300italic,300' rel='stylesheet' type='text/css'>
+<script src="js/jquery-1.11.1.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script type="text/javascript">
+	jQuery(document).ready(function($) {
+		$(".scroll").click(function(event){		
+			event.preventDefault();
+			$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+		});
+	});
+</script> 
+
 </head>
 <body>
-<div class="header">
-<h1>Games Bond</h1>
-</div>
-<br>
-<div class="fixed">
-<ul>
-<li><a href="index.html">Home</a></li>
-  <li><a href="Action.html">Action</a></li>
-  <li><a href="Adventure.html">Adventure</a></li>
-  <li><a href="Arcade.html">Arcade</a></li>
-  <li><a href="Shooting.html">Shooting</a></li>
-  <li><a href="Puzzle.html">Puzzle & Skill</a></li>
-  <li><a href="Sports.html">Sports</a></li>
-  <li><a href="Racing.html">Racing</a></li>
-  <li><a href="Strategy.html">Strategy</a></li>
-  </div>
-<div class="search">
-<br>
-<form>
-   <input class="sear" type="text" placeholder="Search...">
-   <input class="butn" type="submit" value="Search">
-</form>
-</ul>
-</div>
-<br>
-<div class="sub1 slideInLeft animated">
-<table class="dex1">
-<tr>
-<td><a href="alien assault.html"><img border="0" src="mobilee/Action/cube ninja.jpg" width="150px"></a></td>
-<td><a href="carrot fant.html"><img border="0" src="mobilee/Action/king sold.jpg" width="150px"></a></td>
-</tr>
-<tr>
-<td><a href="zombie impaler.html"><img border="0" src="mobilee/Action/balcony.png" width="150px"></a></td>
-<td><a href="cobra strike.html"><img border="0" src="mobilee/Action/tanks.png" width="150px"></a></td>
-</tr>
-<tr>
-<td><a href="counter terror.html"><img border="0" src="mobilee/Action/titan.png" width="150px"></a></td>
-<td><a href="crazy battle.html"><img border="0" src="mobilee/Action/cowboy.png" width="150px"></a></td>
-</tr>
-<tr>
-<td><a href="cube tank.html"><img border="0" src="mobilee/Action/color bound.png" width="150px"></a></td>
-<td><a href="detective conrad.html"><img border="0" src="mobilee/Action/doodle jump.jpg" width="150px"></a></td>
-</tr>
-<tr>
-<td><a href="dr lee.html"><img border="0" src="mobilee/Action/bone slasher.png" width="150px"></a></td>
-<td><a href="fairytale.html"><img border="0" src="mobilee/Action/bionic race.png" width="150px"></a></td>
-</tr>
-</table>
-</div>
-<div class="sub2 zoomIn animated">
-<table class="dex2">
-<tr>
-<td><a href="frontline.html"><img border="0" src="mobilee/Action/ninja boy.png" width="150px"></a></td>
-<td><a href="goodgame emp.html"><img border="0" src="mobilee/Action/king sold 3.jpg" width="150px"></a></td>
-</tr>
-<tr>
-<td><a href="kick out kim.html"><img border="0" src="mobilee/Action/king sold 2.jpg" width="150px"></a></td>
-<td><a href="mafia kills.html"><img border="0" src="mobilee/Action/king sold 1.jpg" width="150px"></a></td>
-</tr>
-<tr>
-<td><a href="ninja train.html"><img border="0" src="mobilee/Action/gal jump.jpg" width="150px"></a></td>
-<td><a href="no mutants.html"><img border="0" src="mobilee/Action/neon grav.jpg" width="150px"></a></td>
-</tr>
-<tr>
-<td><a href="nuke def.html"><img border="0" src="mobilee/Action/smashed.jpg" width="150px"></a></td>
-<td><a href="om nom.html"><img border="0" src="mobilee/Action/ultimate box.jpg" width="150px"></a></td>
-</tr>
-<tr>
-<td><a href="overheat.html"><img border="0" src="mobilee/Action/miner jump.jpg" width="150px"></a></td>
-<td><a href="phantom.html"><img border="0" src="mobilee/Action/save the monster.jpg" width="150px"></a></td>
-</tr>
-</table>
-</div>
+	<!-- banner -->
+	<div class="banner">
+		<div class="agileinfo-dot">
+			<div class="agileits-logo">
+				<h1><a href="index.html">Games <span>Bond</span></a></h1>
+			</div>
+			<div class="header-top">
+				<div class="container">
+					<div class="header-top-info">
+						<nav class="navbar navbar-default">
+							<!-- Brand and toggle get grouped for better mobile display -->
+							<div class="navbar-header">
+								<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+									<span class="sr-only">Toggle navigation</span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+								</button>
+							</div>
 
-
-</div>
-<div class="sub3 slideInRight animated">
-<table class="dex3">
-<tr>
-<td><a href="pixel quest.html"><img border="0" src="mobilee/Action/paper surviver.jpg" width="150px"></a></td>
-<td><a href="priest vs evil.html"><img border="0" src="mobilee/Action/shoot bombs.jpg" width="150px"></a></td>
-</tr>
-<tr>
-<td><a href="rocketeer.html"><img border="0" src="mobilee/Action/chef jump.jpg" width="150px"></a></td>
-<td><a href="seig of troy 1.html"><img border="0" src="mobilee/Action/sky battle.jpg" width="150px"></a></td>
-</tr>
-<tr>
-<td><a href="spartacus.html"><img border="0" src="mobilee/Action/axe.jpg" width="150px"></a></td>
-<td><a href="spunky.html"><img border="0" src="mobilee/Action/the droppin.jpg" width="150px"></a></td>
-</tr>
-<tr>
-<td><a href="tanks.html"><img border="0" src="mobilee/Action/climb up.jpg" width="150px"></a></td>
-<td><a href="the emp 2.html"><img border="0" src="mobilee/Action/crazy balls.jpg" width="150px"></a></td>
-</tr>
-<tr>
-<td><a href="warrior run.html"><img border="0" src="mobilee/Action/jelly vs cand.jpg" width="150px"></a></td>
-<td><a href="wrestling.html"><img border="0" src="mobilee/Action/starship.jpg" width="150px"></a></td>
-</tr>
-</table>
-</div>
-</div>
-<div class="endd">
-<hr>
-<h2><font color="white">Games at Games Bond :</font></h2><hr>
-<font color="white">
-Games Bond is the largest source of the best free online games including funny games, flash games, arcade games, dress-up games, internet games, shooting games, word games, RPG games, racing games, and much more. Play Games on the One-and-Only Addicting Games! Whatever game you feel like turning on, we've got it here. Including free online games! With tons of reviews & ratings, gamers of all skill levels are sure to find hot new games every day. This is the best place on the web to play games for free! Thousands of choices from some of the best developers around, like Armor Games, Games2Win, and even yours truly, Addicting Games! If you're ready to start playing right now, simply choose from the following categories: Action, Sports, Puzzle & Board, Shooting, Arcade & Classic, Strategy, Adventure, Life & Style, & NewsGames.
-</font></h4>
-
-
-
-</div>
-</body>
+							<!-- Collect the nav links, forms, and other content for toggling -->
+							<div class="collapse navbar-collapse nav-wil" id="bs-example-navbar-collapse-1">
+								<nav>
+									<ul class="nav navbar-nav">
+										<li class="active"><a href="index.html">Home</a></li>
+										<li><a href="#foot" class="scroll">About</a></li>
+										<li><a href="#markets" class="scroll">Latest Games</a></li>
+										
+									</ul>
+								</nav>
+							</div>
+							<!-- /.navbar-collapse -->
+						</nav>
+					</div>
+				</div>
+			</div>
+			<div class="w3layouts-banner-info">
+				<div class="container">
+					<div class="w3layouts-banner-slider">
+						<div class="w3layouts-banner-top-slider">
+							<div class="slider">
+								<div class="callbacks_container">
+									<ul class="rslides callbacks callbacks1" id="slider4">
+										<li>
+											<div class="banner_text">
+												<h3>Gamers don't die</h3>
+												<p>They RESPAWN</p>
+												
+											</div>
+										</li>
+										
+									</ul>
+								</div>
+								<div class="clearfix"> </div>
+								<script src="js/responsiveslides.min.js"></script>
+								<script>
+									// You can also use "$(window).load(function() {"
+									$(function () {
+									  // Slideshow 4
+									  $("#slider4").responsiveSlides({
+										auto: true,
+										pager:true,
+										nav:true,
+										speed: 500,
+										namespace: "callbacks",
+										before: function () {
+										  $('.events').append("<li>before event fired.</li>");
+										},
+										after: function () {
+										  $('.events').append("<li>after event fired.</li>");
+										}
+									  });
+								
+									});
+								 </script>
+								<!--banner Slider starts Here-->
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- //banner -->
+	<!-- markets -->
+	<div class="markets" id="markets">
+		<div class="container">
+			<div class="agileits-title"> 
+			<h3>Action</h3>
+			</div>
+			<div class="markets-grids">
+				<div class="col-md-4 w3ls-markets-grid">
+					<div class="agileits-icon-grid">
+						
+						<div class="icon-right">
+							<table>
+							<tr>
+							<td><p><a href="alien assault.html"><img width="90%" src="mobilee/Action/cube ninja.jpg"></a></p>
+							<td><p><a href="carrot fant.html"><img width="90%" src="mobilee/Action/king sold.jpg"></a></p>
+							</tr>
+							</table>
+						</div>
+						<div class="icon-right">
+							<table>
+							<tr>
+							<td><p><a href="zombie impaler.html"><img width="90%" src="mobilee/Action/balcony.png"></a></p>
+							<td><p><a href="cobra strike.html"><img width="90%" src="mobilee/Action/tanks.png"></a></p>
+							</tr>
+							</table>
+						</div>
+						<div class="icon-right">
+							<table>
+							<tr>
+							<td><p><a href="counter terror.html"><img width="90%" src="mobilee/Action/titan.png"></a></p>
+							<td><p><a href="crazy battle.html"><img width="90%" src="mobilee/Action/cowboy.png"></a></p>
+							</tr>
+							</table>
+						</div>
+						<div class="icon-right">
+							<table>
+							<tr>
+							<td><p><a href="cube tank.html"><img width="90%" src="mobilee/Action/color bound.png"></a></p>
+							<td><p><a href="detective conrad.html"><img width="90%" src="mobilee/Action/doodle jump.jpg"></a></p>
+							</tr>
+							</table>
+						</div>
+						<div class="icon-right">
+							<table>
+							<tr>
+							<td><p><a href="dr lee.html"><img width="90%" src="mobilee/Action/bone slasher.png"></a></p>
+							<td><p><a href="fairytale.html"><img width="90%" src="mobilee/Action/bionic race.png"></a></p>
+							</tr>
+							</table>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+				</div>
+				<div class="col-md-4 w3ls-markets-grid">
+					<div class="agileits-icon-grid">
+						
+						<div class="icon-right">
+							<table>
+							<tr>
+							<td><p><a href="frontline.html"><img width="90%" src="mobilee/Action/ninja boy.png"></a></p>
+							<td><p><a href="goodgame emp.html"><img width="90%" src="mobilee/Action/king sold 3.jpg"></a></p>
+							</tr>
+							</table>
+						</div>
+						<div class="icon-right">
+							<table>
+							<tr>
+							<td><p><a href="kick out kim.html"><img width="90%" src="mobilee/Action/king sold 2.jpg"></a></p>
+							<td><p><a href="mafia kills.html"><img width="90%" src="mobilee/Action/king sold 1.jpg"></a></p>
+							</tr>
+							</table>
+						</div>
+						<div class="icon-right">
+							<table>
+							<tr>
+							<td><p><a href="ninja train.html"><img width="90%" src="mobilee/Action/gal jump.jpg"></a></p>
+							<td><p><a href="no mutants.html"><img width="90%" src="mobilee/Action/neon grav.jpg"></a></p>
+							</tr>
+							</table>
+						</div>
+						<div class="icon-right">
+							<table>
+							<tr>
+							<td><p><a href="nuke def.html"><img width="90%" src="mobilee/Action/smashed.jpg"></a></p>
+							<td><p><a href="om nom.html"><img width="90%" src="mobilee/Action/ultimate box.jpg"></a></p>
+							</tr>
+							</table>
+						</div>
+						<div class="icon-right">
+							<table>
+							<tr>
+							<td><p><a href="overheat.html"><img width="90%" src="mobilee/Action/miner jump.jpg"></a></p>
+							<td><p><a href="phantom.html"><img width="90%" src="mobilee/Action/save the monster.jpg"></a></p>
+							</tr>
+							</table>
+						</div>
+						
+						<div class="clearfix"> </div>
+					</div>
+				</div>
+				<div class="col-md-4 w3ls-markets-grid">
+					<div class="agileits-icon-grid">
+						<div class="icon-right">
+							<table>
+							<tr>
+							<td><p><a href="pixel quest.html"><img width="90%" src="mobilee/Action/paper surviver.jpg"></a></p>
+							<td><p><a href="priest vs evil.html"><img width="90%" src="mobilee/Action/shoot bombs.jpg"></a></p>
+							</tr>
+							</table>
+						</div>
+						<div class="icon-right">
+							<table>
+							<tr>
+							<td><p><a href="rocketeer.html"><img width="90%" src="mobilee/Action/chef jump.jpg"></a></p>
+							<td><p><a href="seig of troy 1.html"><img width="90%" src="mobilee/Action/sky battle.jpg"></a></p>
+							</tr>
+							</table>
+						</div>
+						<div class="icon-right">
+							<table>
+							<tr>
+							<td><p><a href="spartacus.html"><img width="90%" src="mobilee/Action/axe.jpg"></a></p>
+							<td><p><a href="spunky.html"><img width="90%" src="mobilee/Action/the droppin.jpg"></a></p>
+							</tr>
+							</table>
+						</div>
+						<div class="icon-right">
+							<table>
+							<tr>
+							<td><p><a href="tanks.html"><img width="90%" src="mobilee/Action/climb up.jpg"></a></p>
+							<td><p><a href="the emp 2.html"><img width="90%" src="mobilee/Action/crazy balls.jpg"></a></p>
+							</tr>
+							</table>
+						</div>
+						<div class="icon-right">
+							<table>
+							<tr>
+							<td><p><a href="warrior run.html"><img width="90%" src="mobilee/Action/jelly vs cand.jpg"></a></p>
+							<td><p><a href="wrestling.html"><img width="90%" src="mobilee/Action/starship.jpg"></a></p>
+							</tr>
+							</table>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+				</div>
+						<div class="clearfix"> </div>
+					</div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+	<!-- //markets -->
+	
+	<!-- testimonial -->
+	<div class="jarallax testimonial" id="testimonial">
+		<div class="testimonial-dot">
+			<div class="container">
+				<div class="agileits-title testimonial-heading"> 
+					<p></p>
+					<p></p>
+					<br><br><br><br><br><br><br><br><br>
+				</div>
+			</div>
+		</div>
+	</div>	
+	<!-- mail -->
+	<div class="mail" id="mail">
+		<div class="container">
+			<div class="agileits-title">
+				<h3>Mail Us</h3>
+			</div> 
+			<div class="w3_mail_grids">
+				<form action="#" method="post">
+					<span class="input input--jiro">
+						<input class="input__field input__field--jiro" type="text" id="input-10" name="Name" placeholder="Your Name" required=""/>
+						<label class="input__label input__label--jiro" for="input-10">
+							<span class="input__label-content input__label-content--jiro">Your Name</span>
+						</label>
+					</span>
+					<span class="input input--jiro">
+						<input class="input__field input__field--jiro" type="email" id="input-11" name="Email" placeholder="Your Email Address" required=""/>
+						<label class="input__label input__label--jiro" for="input-11">
+							<span class="input__label-content input__label-content--jiro">Your Email</span>
+						</label>
+					</span>
+					<span class="input input--jiro">
+						<input class="input__field input__field--jiro" type="text" id="input-12" name="Phone Number" placeholder="Phone Number" required=""/>
+						<label class="input__label input__label--jiro" for="input-12">
+							<span class="input__label-content input__label-content--jiro">Phone Number</span>
+						</label>
+					</span>
+					<textarea name="Message" placeholder="Message..." required=""></textarea>
+					<input type="submit" value="Submit">
+				</form>
+			</div>
+		</div>
+	</div>
+	
+	  
+	<!-- footer -->
+	<div class="footer" id="foot">
+		<div class="container">
+			<div class="footer-top">
+				<div class="col-md-4 amet-sed"> 
+					<div class="footer-title">
+						<h3>About Us</h3>
+					</div> 
+					<p>Games Bond is the largest source of the best free online games including funny games, flash games, arcade games, dress-up games, internet games, shooting games, word games, RPG games,and much more. Play Games on the One-and-Only Games Bond! Whatever game you feel like turning on, we've got it here. Including free online games! With tons of reviews & ratings, gamers of all skill levels are sure to find hot new games every day. This is the best place on the web to play games for free!</p>
+				</div>
+				<div class="col-md-4 amet-sed amet-medium">
+					<div class="footer-title">
+						<h3>About the creator</h3>
+					</div> 
+					<p>What's up dear visiter. I'm Raj Pathare , an IT student who spends his most of the time surfing on the web for finding something unusual . Glad to see you here!</p>
+					<p>Contact me on <a href="https://www.facebook.com/raj.pathare.35">Facebook</a> if you wanna know more ! Thank you.</p>
+					
+				</div>
+				<div class="col-md-4 amet-sed ">
+					<div class="footer-title">
+						<h3>Follow Us</h3>
+					</div> 
+					<div class="agileinfo-social-grids">
+						<ul>
+							
+							<li><a href="https://github.com/RajPathare"><img src="images/git1.png"></img></a></li>
+						</ul>
+					</div>
+					
+				</div>	
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+	<!-- //footer --> 
+	<!-- copyright -->
+	<div class="copyright">
+		<div class="container">
+			<p class="footer-class">© 2017 Games Hub . All Rights Reserved | Design by  <a href="http://w3layouts.com/" target="_blank">W3layouts</a> </p>
+		</div>
+	</div>
+	<!-- //copyright -->
+	<script src="js/jarallax.js"></script>
+	<script src="js/SmoothScroll.min.js"></script>
+	<script type="text/javascript">
+		/* init Jarallax */
+		$('.jarallax').jarallax({
+			speed: 0.5,
+			imgWidth: 1366,
+			imgHeight: 768
+		})
+	</script>
+	<script src="js/responsiveslides.min.js"></script>
+	<script type="text/javascript" src="js/move-top.js"></script>
+	<script type="text/javascript" src="js/easing.js"></script>
+	<!-- here stars scrolling icon -->
+	<script type="text/javascript">
+		$(document).ready(function() {
+			/*
+				var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+				};
+			*/
+								
+			$().UItoTop({ easingType: 'easeOutQuart' });
+								
+			});
+	</script>
+	<!-- //here ends scrolling icon -->
+	<!-- Tabs-JavaScript -->
+	<script src="js/jquery.filterizr.js"></script>
+		<script src="js/controls.js"></script>
+		<script type="text/javascript">
+			$(function() {
+				$('.filtr-container').filterizr();
+			});
+		</script>
+	<!-- //Tabs-JavaScript -->
+	<!-- PopUp-Box-JavaScript -->
+		<script src="js/jquery.chocolat.js"></script>
+		<script type="text/javascript">
+			$(function() {
+				$('.filtr-item a').Chocolat();
+			});
+		</script>
+	<!-- //PopUp-Box-JavaScript -->
+</body>	
 </html>
